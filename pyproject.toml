@@ -1,0 +1,23 @@
+[project]
+name = "exp10"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "anshulshakya2005", email = "naitikshakya01@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=1.26",
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "plotly>=5.24",
+    "streamlit>=1.40",
+]
+
+[project.scripts]
+exp10 = "exp10:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
